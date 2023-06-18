@@ -41,3 +41,13 @@ export function numberToEnglish(x: number): string {
   
     return result.trim();
   }
+//Reverse words
+  export function reverseWords(str: string): string {
+    const words = str.split(" ");
+    const reversedWords = words.map(word => reverseString(word));
+    return reversedWords.join(" ");
+  }
+  
+  function reverseString(str: string): string {
+    return str.split("").reverse().join("");
+  }
