@@ -18,3 +18,11 @@ if (n <= 0) {
 } else {
   return n - 2;
 }
+//Grasshopper - If/else syntax debug
+function checkAlive (health) {
+  if (health > 0) {
+    return true
+  } else {
+    return false
+  }
+}
