@@ -26,3 +26,7 @@ function checkAlive (health) {
     return false
   }
 }
+//Plural
+function plural(n) {
+  return n !== 1;
+  }
