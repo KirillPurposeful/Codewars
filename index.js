@@ -30,3 +30,21 @@ function checkAlive (health) {
 function plural(n) {
   return n !== 1;
   }
+//Complementary DNA
+function DNAStrand(dna){
+  let complementaryStrand = '';
+
+  for (let i = 0; i < dna.length; i++) {
+    if (dna[i] === 'A') {
+      complementaryStrand += 'T';
+    } else if (dna[i] === 'T') {
+      complementaryStrand += 'A';
+    } else if (dna[i] === 'C') {
+      complementaryStrand += 'G';
+    } else if (dna[i] === 'G') {
+      complementaryStrand += 'C';
+    }
+  }
+
+  return complementaryStrand;
+}
