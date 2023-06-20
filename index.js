@@ -49,3 +49,17 @@ function DNAStrand(dna){
   return complementaryStrand;
 }
 
+//How good are you really?
+function betterThanAverage(classPoints, yourPoints) {
+  let averageClassPoints = 0;
+  for(i=0;i<classPoints.length; i ++){
+    averageClassPoints += classPoints[i];
+ }
+ averageClassPoints /= classPoints.length;
+  if(averageClassPoints<=yourPoints){
+   return true
+ }
+  else {
+   return false}
+ }
+ 
