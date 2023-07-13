@@ -63,3 +63,8 @@ function betterThanAverage(classPoints, yourPoints) {
    return false}
  }
  
+ //Grasshopper - Function syntax debugging
+
+ function main (verb, noun) {
+  return verb + noun
+}
